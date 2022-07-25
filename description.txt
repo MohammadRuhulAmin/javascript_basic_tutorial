@@ -1,0 +1,6 @@
+ECMA => European Computer Manufacturer's Association
+No difference between '' or ""
+javascript can change the attribute of HTML Tag
+javascript can change CSS 
+in Javascript after . seperator instead of - use capital charecter like : 
+in CSS font-size in js fontSize
