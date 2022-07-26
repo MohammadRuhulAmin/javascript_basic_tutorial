@@ -4,3 +4,39 @@ javascript can change the attribute of HTML Tag
 javascript can change CSS 
 in Javascript after . seperator instead of - use capital charecter like : 
 in CSS font-size in js fontSize
+fixed values are called literals like 10.19  , 1 etc 
+Hypens are not allowed in javascript . it consider substraction 
+Javascript is a dynamically typed language 
+undefined it self a datatype  mane kichu nai ... 
+
+javascript events 
+
+1.onload
+2.onchange
+3.onkeyup
+4.onkeydown
+5.onclick 
+
+for details : https://www.w3schools.com/js/js_htmldom_events.asp
+
+String is premitive datatype 
+array , objects are non premitive data type 
+
+let x = "Ruhul Amin" -> this is literal syntax  -> string 
+let y = new String("ruhul amin") -> this is not literal syntax -> object 
+
+if(x == y )  // return true bcz it only check the value 
+if(x === y ) // return false bcz it both check value & data type  
+here x = string variable 
+y = object 
+
+you cannot compare tow objects 
+
+example : 
+let x = new String("ruhul");
+let y = new String("ruhul");
+if(x == y) // it returns false 
+// bcz object cannot be compared though the values are same ! 
+
+object's property can also be a function that time it is called method ! 
+ 
