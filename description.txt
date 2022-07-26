@@ -13,7 +13,7 @@ javascript events
 
 1.onload
 2.onchange
-3.onkeyup
+3.onkeyupf
 4.onkeydown
 5.onclick 
 
@@ -39,4 +39,24 @@ if(x == y) // it returns false
 // bcz object cannot be compared though the values are same ! 
 
 object's property can also be a function that time it is called method ! 
+
+array is a special type of object 
+
+array element can be function also 
  
+const person = []
+person["firstName"] = "ruhulamin"
+person["lastName"] = "Amin"
+
+console.log(person) // it will consider as object not array 
+// though it is declered as an array 
+
+let array = new array(40) // is a bad syntax !
+
+typeof , instanseof  => these are operator ! 
+
+array is an instanceof object 
+object is not an instanceof array 
+
+
+

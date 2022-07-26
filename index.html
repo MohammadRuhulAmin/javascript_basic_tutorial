@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-
     <head>
         <title> Javascript fundamental </title>
     </head>
+
     <body>
         <h1 id = "myText"></h1>
         <p id="sum"></p>
+        <div id="fruitItem"></div>
         <button onClick="window.print()">Print this page </button>
         <h1 id="time"></h1>
         <button onclick="document.getElementById('time').innerHTML = Date()">The Time is ? </button>
@@ -13,30 +14,9 @@
         <button onclick="this.innerHTML = Date()">THe time is ?? </button>
         <button onclick= "myInfo()">checkout me More !</button>
         <h1 id="mDetails"></h1>
-        <script>
-            document.getElementById("myText").innerHTML = "Ruhul Amin";
-            document.getElementById("sum").innerHTML = 16+ "Ruhul Amin"+7;
-            let myObject = {
-                name : "Ruhul amin",
-                email : "r@gmail.com"
-            }
-            function myInfo(){
-                console.log("this is ruhul amin");
-                document.getElementById("mDetails").innerHTML = "Ruhul Amin"
-            }
-
-                        
-            
-
-            myObject = undefined
-            console.log("My Object : " +myObject)
-        </script>
-        <script>
-            //document.write(122)
-            // javascript is a client site language
-            //window.alert(121);
-            
-        </script>
+        <p id="arrId"></p>
+        <button onclick = "arrayInfo()">Show Array Data </button>
+        <script src="./javascript.js"></script>
     </body>
 </html>
 
