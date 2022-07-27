@@ -58,5 +58,38 @@ typeof , instanseof  => these are operator !
 array is an instanceof object 
 object is not an instanceof array 
 
+Everything in javascript is object !!
 
+Constructor Function Example : 
+
+let date = new Date()   // new makes the Date() function as Constructor function !
+
+What is falsey value ? 
+=> -0  , null , 12/"hello" etc are falsey value 
+
+Boolean(falsey) // return false 
+
+Booleans are also object 
+
+let x = false;
+let y = new Boolean(false) ; 
+if(x == y )  // return true because  == operator only compares the value 
+if(x === y) // return false because  === operator both check value & datatype 
+
+!== operator means => not equal value or not equal type 
+
+
+object properties can be written as array syntax 
+Example : 
+const person = {
+    firstName : "ruhul",
+    lastName:"Amin",
+    age : "27"
+};
+console.log(person[0]) //  ruhul ;; 
+
+
+// iterable => "ruhul"  
+
+null itself an object !
 

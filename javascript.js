@@ -32,4 +32,33 @@ function multiple(value,index,array){
 var store = numbers.map(multiple)
 console.log(store)
 
+const myAges = [12,23,44,112]
+
+function calc(value,index,array){
+    return value*2;
+}
+
+const updateAge = myAges.map(calc);
+console.log(updateAge);
+
+
+
+const friendsAge = [12,44,23,111,1]
+function checkFriendAge(value,index,array){
+    if(value%2 == 0) return value ;
+}
+
+const freshAge = friendsAge.filter(checkFriendAge)
+console.log(freshAge)
+
+
+function myUpdate(total,value,index,array){
+    return total + (value*value) ;
+}
+
+
+const summation = friendsAge.reduce(myUpdate)
+console.log(summation) 
+
+
 
