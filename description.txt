@@ -109,3 +109,5 @@ in var
 x = undefined // automatically added this statement but in let it doesnot add ! that is why using let it cannnot be done ! 
 
 in let , const , var hoisted done but in let & const it gives reference error 
+
+"use strict"  :=> doesnot allow the hoisting mode !  // actually it converts the bad syntax into real error ! 
