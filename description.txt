@@ -93,3 +93,19 @@ console.log(person[0]) //  ruhul ;;
 
 null itself an object !
 
+Hoisting : (uporeer dike tule deya )
+Hoisting meaning uttolon 
+
+it is possible :  
+Hoisting : 
+x = 5; // assign before declaretion 
+var x; // decleration 
+
+but it cannot be done with let & const 
+because  
+
+in var 
+
+x = undefined // automatically added this statement but in let it doesnot add ! that is why using let it cannnot be done ! 
+
+in let , const , var hoisted done but in let & const it gives reference error 

@@ -60,5 +60,19 @@ function myUpdate(total,value,index,array){
 const summation = friendsAge.reduce(myUpdate)
 console.log(summation) 
 
+let myVal = 1;
+try{
+   if(myVal == 1) throw {
+        message : "THis is error",
+        name : "Ruhul Throw"
+   }
+}
+catch(err){
+    document.getElementById("successMessage").innerHTML = err.message
+    console.log(err)
+}
+finally{
+    console.log("My Objection is done !");
+}
 
 
