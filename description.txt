@@ -194,3 +194,17 @@ const myExpression = function(){
 }
 
 console.log(myExpression());
+
+In function parameter objects are always passed by references !! 
+let x = {
+    one:1,
+    two:2
+}
+
+
+function myFunc(x){
+
+    x.one = 1221; // as x object is passed by references so the value of the object will be changed !! 
+    x.two = 1212;
+
+}
