@@ -180,3 +180,17 @@ javascript is called a prototype oriented language !
 
 je object er moddhe symbole.iteration property ache shei object er upor for of loop chalano possible ..
 
+
+
+Function expression / anonimus Function 
+
+// this is called annonimus function or function expression
+const express = function(a,b) {return a*b;}
+
+console.log(express(12,32));
+
+const myExpression = function(){
+    return "This is function expression";
+}
+
+console.log(myExpression());
