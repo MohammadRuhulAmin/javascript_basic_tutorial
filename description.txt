@@ -111,6 +111,7 @@ x = undefined // automatically added this statement but in let it doesnot add ! 
 
 in let , const , var hoisted done but in let & const it gives reference error 
 
+<<<<<<< HEAD
 "use strict"  :=> doesnot allow the hoisting mode !  // actually it converts the bad syntax into real error ! 
 
 javascript is not an object oriented programming language 
@@ -119,3 +120,103 @@ debugger ; // this helps to debug your code !
 
 In javascript all functions are object method ! 
 
+=======
+"use strict"  :=> doesnot allow the hoisting mode !  // actually it converts the bad syntax into real error !  
+
+this : https://www.youtube.com/watch?v=iMbMR86liyE&list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy&index=52
+
+
+eval("console.log('evel function execute the code inside its parameter!')")
+
+There are 5 Primitive Data Types :
+1.String 2.number 3.boolean 4.null 5.undefined 
+
+Primitive values are immutable (they are hardcoded and therefore cannot be changed!)
+
+object literal syntax : 
+
+const person = {
+    name:'ruhul',
+    email :'rr@g.com'
+};
+
+after decleration of  an object property you can add new object property Example : 
+
+const person = {
+    name :"Ruhul Amin",
+    email :"r@gmail.com"
+};
+
+person.country = "Bangladesh"; // here we have added a new Property for person object !
+person.age  = 27 ;
+
+let x = 'age';
+console.log(person[x]); // it is possible!!
+
+using delete key we can delete an object property 
+
+delete person.email ; // this will delete email property of person object! 
+delete applyes only object 
+
+const info = {
+    cars:{
+        car1:"Toyota"
+        car2:"Audy"
+    }
+
+}
+
+console.log(info.cars.car1) // similarly 
+console.log(info[cars][car1]) // same 
+
+
+object accessories : getter, setter 
+
+what is computed property of na object ? 
+
+const person = {
+    firstName :"Ruhul",
+    lastName : "Amin",
+    get lang(){
+        return this.firstName + this.lastName; // this is called computed property of an object !
+    }
+};
+
+console.log(person.lang); // dont have to put () after lang 
+
+to make computed property we use getter 
+
+javascript is called a prototype oriented language ! 
+
+
+je object er moddhe symbole.iteration property ache shei object er upor for of loop chalano possible ..
+
+
+
+Function expression / anonimus Function 
+
+// this is called annonimus function or function expression
+const express = function(a,b) {return a*b;}
+
+console.log(express(12,32));
+
+const myExpression = function(){
+    return "This is function expression";
+}
+
+console.log(myExpression());
+
+In function parameter objects are always passed by references !! 
+let x = {
+    one:1,
+    two:2
+}
+
+
+function myFunc(x){
+
+    x.one = 1221; // as x object is passed by references so the value of the object will be changed !! 
+    x.two = 1212;
+
+}
+>>>>>>> 4c66414e68d81039efa0d9863f2709209a8eac9d

@@ -118,3 +118,41 @@ console.log(ans)
 
 
 
+// eval("function(){console.log('ruhul amin is calling from eval')}")
+
+const person = {
+    firstName :"Ruhul",
+    lastName : "Amin",
+    age :null ,
+    get lang(){
+        return this.firstName + this.lastName; // this is called computed property of an object !
+    },
+    set myAge(age){
+        this.age = age
+    }    
+};
+
+console.log(person.lang); // dont have to put () after lang 
+
+person.myAge = 23;
+console.log(person.age)
+
+
+// object constructor 
+// this is a constructor function ! 
+function Aperson(name,email,contact){
+    this.name = name;
+    this.email = email;
+    this.contact = contact;
+    this.fullName = this.name + " " + this.email;
+}
+
+const ruhul = new Aperson("ruhul amin","r@gmail.com","01322-352864");
+console.log(ruhul);
+
+console.log("what the hack !!");
+
+
+
+
+
