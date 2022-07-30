@@ -208,3 +208,6 @@ function myFunc(x){
     x.two = 1212;
 
 }
+
+
+javascript is a gurbage collected language! 
