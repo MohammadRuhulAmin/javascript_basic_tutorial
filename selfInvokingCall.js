@@ -39,3 +39,4 @@ console.log("The element is : "+typeof myObjectFunction);
  * In arrow function there is no use of this key word 
  *  
  */
+
