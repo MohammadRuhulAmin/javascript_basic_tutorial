@@ -75,4 +75,46 @@ finally{
     console.log("My Objection is done !");
 }
 
+class MyClass{
+    constructor(name,email){
+        this.name = name;
+        this.email = email;
+    }
+}
+
+var myName = new MyClass("ruhul amin","ruhul@gmail.com");
+
+console.log(myName);
+
+(function aboutSelfFunction(){
+    console.log(this)
+})()
+
+/**
+ * Difference between invocation & call 
+ *  
+ * invocation works with object 
+ * call doesnot work with object 
+ * 
+ */
+
+function plus(a,b){
+    return a+b
+}
+plus(4,4) // this is function call 
+
+const myObj = {
+    a:function(a,b){
+        return a+b ;
+    }
+}
+
+const ans = myObj.a(12,2); // this is invocation 
+console.log(ans)
+
+
+
+
+
+
 

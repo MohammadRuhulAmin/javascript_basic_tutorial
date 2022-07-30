@@ -1,3 +1,4 @@
+
 ECMA => European Computer Manufacturer's Association
 No difference between '' or ""
 javascript can change the attribute of HTML Tag
@@ -88,7 +89,7 @@ const person = {
 };
 console.log(person[0]) //  ruhul ;; 
 
-
+//======================================
 // iterable => "ruhul"  
 
 null itself an object !
@@ -111,3 +112,10 @@ x = undefined // automatically added this statement but in let it doesnot add ! 
 in let , const , var hoisted done but in let & const it gives reference error 
 
 "use strict"  :=> doesnot allow the hoisting mode !  // actually it converts the bad syntax into real error ! 
+
+javascript is not an object oriented programming language 
+
+debugger ; // this helps to debug your code !
+
+In javascript all functions are object method ! 
+
