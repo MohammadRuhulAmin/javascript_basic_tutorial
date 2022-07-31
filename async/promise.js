@@ -19,6 +19,7 @@ const promise = new Promise(function(resolve,reject){
 /**
  * function call 
  */
+
 promise 
     .then(function(success){
         console.log(success)
@@ -30,3 +31,8 @@ promise
 console.log('Task 3');
 
 
+/**
+ * 
+ * jodi reject na thake ! 
+ * 
+ */
