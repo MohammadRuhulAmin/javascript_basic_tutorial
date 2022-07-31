@@ -1,0 +1,6 @@
+
+DEFINITATIONS  : 
+
+DOM is a Document Object Model & Programming interface for HTML that defines HTML 
+objects , properties , methods & events to get , change ,add or delete 
+HTML elements .
