@@ -1,0 +1,13 @@
+
+javascript eksathe onek gulo kaj korte pare na ejonno it is called 
+single therated programming language.
+
+javascript er synchronous blocking behaviour : 
+    actually , 
+    ekta task complitely shesh na kore onno kono task handle korte pare na !
+    blocking time bolar karon hocche : task ta complete hote joto time lage oi time tai hocche 
+    blocking time .. !
+
+    for details : 
+    https://www.youtube.com/watch?v=IUBd76UQb34&t=54s
+    
