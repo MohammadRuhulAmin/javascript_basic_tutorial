@@ -7,6 +7,7 @@ const promise_1 = new Promise((resolve,reject)=>{
     }
 });
 
+
 const promise_2 = new Promise((resolve,reject)=>{
    const done = true;
    if(done)resolve('The work is done');
