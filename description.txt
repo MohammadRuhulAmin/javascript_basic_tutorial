@@ -215,3 +215,5 @@ javascript is a gurbage collected language!
 
 class is a template for javascrpit object ! 
 if you do not add a Constructor inside a class , javascript will automatically add constructor in it .
+
+javascript is a single therated language !

@@ -13,12 +13,21 @@ const processOrder = (customer,callback)=>{
     },3000)
 }
 
-const completeOrder =(customer)=>{
+const completeOrder =(customer,callback)=>{
     console.log(`Order is completed for ${customer}`);
+    callback(customer);
+}
+
+const paymentProcess = (customer, cash)=>{
+    setTimeout(()=>{
+        console.log(`For ${customer} the Payment is ${cash} Taka`);
+    },4000)
 }
 
 takeOrder('Customer - 1',()=>{
     processOrder('Customer - 1',()=>{
-        completeOrder('Customer - 1');   
+        completeOrder('Customer - 1',()=>{
+            paymentProcess('Customer  - 1',5000);
+        });   
     })
 })

@@ -5,7 +5,7 @@ document.querySelector('id');
 
 
 /**
- * creating new node  
+ * creating new node
  * 
  */
 
@@ -18,3 +18,4 @@ const element = document.getElementById("div1");
 element.appendChild(para);
 element.insertBefore(para,p1);
 
+//
