@@ -219,4 +219,16 @@ function myFunc(x){
     x.two = 1212;
 
 }
+<<<<<<< HEAD
 >>>>>>> 4c66414e68d81039efa0d9863f2709209a8eac9d
+=======
+
+
+javascript is a gurbage collected language! 
+
+
+class is a template for javascrpit object ! 
+if you do not add a Constructor inside a class , javascript will automatically add constructor in it .
+
+javascript is a single therated language !
+>>>>>>> refs/remotes/origin/main
